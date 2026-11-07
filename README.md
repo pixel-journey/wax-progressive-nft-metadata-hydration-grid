@@ -3,7 +3,7 @@
 **Trust label:** `educational-reference`  
 **Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
 
-image made of spaces is missing. name is kept. Nothing is fetched.
+image made of spaces is missing. name is kept. Nothing is fetched. Blank means the string is missing or only whitespace. This is not an AtomicAssets assets call, and it does not know schema formats.
 
 The earlier README described a live product. This tree does not ship that.
 
