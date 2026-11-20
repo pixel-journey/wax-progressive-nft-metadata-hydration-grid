@@ -41,6 +41,14 @@ npm test
 
 A blank is not a fetched image. Progressive UI can still show a skeleton for missing keys without claiming the network failed.
 
+### Attack → test
+
+| Attack | Lab behavior |
+| --- | --- |
+| Spaces as image URL | missing |
+| Fetch IPFS in pure helper | not on path |
+| 21 required keys | refused |
+
 ---
 
 ## Masterclass
@@ -53,9 +61,9 @@ A blank is not a fetched image. Progressive UI can still show a skeleton for mis
 
 ### Exercises
 
-1. `image: "   "` with required image — missing? (Yes.)  
-2. Max required keys? (20.)  
-3. Does this call AtomicAssets? (No.)
+1. `image: "   "` with required image — missing? (**Yes**.)  
+2. Max required keys? (**20**.)  
+3. Does this call AtomicAssets? (**No**.)
 
 ---
 
